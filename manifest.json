@@ -1,0 +1,12 @@
+{
+    "name": "MTTagReference+",
+    "description": "Make it easier to copy the HTML tag.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["http://www.movabletype.jp/documentation/appendices/tags/*"],
+            "css": ["user.css"],
+            "js": ["jquery-1.6.2.min.js", "user.js"]
+        }
+    ]
+}
